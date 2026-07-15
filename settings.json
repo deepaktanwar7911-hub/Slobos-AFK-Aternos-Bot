@@ -1,12 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "nikhil noobda",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "deepaktanwar79.aternos.me",
+    "ip": "deepaktanwar79-qAkD.aternos.me
+Port: 17722",
     "port": 43531,
     "version": "",
     "try-creative": false
@@ -24,7 +25,7 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
@@ -44,16 +45,16 @@
   "movement": {
     "enabled": false,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
@@ -61,11 +62,11 @@
     "avoidMobs": true,
     "combat": true,
     "beds": false,
-    "chat": true,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
@@ -77,7 +78,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
